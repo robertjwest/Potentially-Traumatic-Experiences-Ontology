@@ -46,3 +46,4 @@ release_file: teo.owl
 release_script_path: .onto-ed/release_script.json
 short_name: TSO
 subontologies: {}
+validation: []
