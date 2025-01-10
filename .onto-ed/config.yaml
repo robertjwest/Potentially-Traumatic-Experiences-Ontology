@@ -44,6 +44,6 @@ prefixes:
   UBERON: http://purl.obolibrary.org/obo/UBERON_
 release_file: teo.owl
 release_script_path: .onto-ed/release_script.json
-short_name: TSO
+short_name: TSTO
 subontologies: {}
 validation: []
