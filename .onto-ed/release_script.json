@@ -1,0 +1,77 @@
+{
+  "iri_prefix": "http://example.com/ontology/",
+  "short_repository_name": "TSTO",
+  "full_repository_name": "robertjwest/Potentially-Traumatic-Experiences-Ontology",
+  "external": {
+    "sources": [
+      {
+        "file": "External_Imports.xlsx",
+        "type": "classes"
+      }
+    ],
+    "target": {
+      "file": "tsto_external.owl",
+      "iri": "http://example.com/ontology/tsto_external.owl",
+      "ontology_annotations": {},
+      "publish": true
+    },
+    "needs": [],
+    "renameTermFile": null,
+    "addParentsFile": null
+  },
+  "files": {
+    "tsto": {
+      "sources": [
+        {
+          "file": "TSO_classes.xlsx",
+          "type": "classes"
+        }
+      ],
+      "target": {
+        "file": "tsto.owl",
+        "iri": "http://example.com/ontology/tsto.owl",
+        "ontology_annotations": {},
+        "publish": true
+      },
+      "needs": [],
+      "renameTermFile": null,
+      "addParentsFile": null
+    }
+  },
+  "steps": [
+    {
+      "name": "PREPARATION",
+      "args": {}
+    },
+    {
+      "name": "IMPORT_EXTERNAL",
+      "args": {}
+    },
+    {
+      "name": "VALIDATION",
+      "args": {}
+    },
+    {
+      "name": "BUILD",
+      "args": {}
+    },
+    {
+      "name": "MERGE",
+      "args": {}
+    },
+    {
+      "name": "HUMAN_VERIFICATION",
+      "args": {}
+    },
+    {
+      "name": "GITHUB_PUBLISH",
+      "args": {}
+    }
+  ],
+  "prefixes": {
+    "ADDICTO": "http://addictovocab.org/ADDICTO_",
+    "BCIO": "http://humanbehaviourchange.org/ontology/BCIO_",
+    "BCIOR": "http://humanbehaviourchange.org/ontology/BCIOR_",
+    "SDGIO": "http://purl.unep.org/sdg/SDGIO_"
+  }
+}
